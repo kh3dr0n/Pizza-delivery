@@ -1,6 +1,6 @@
 ### Pizza delivery android application
 
-This app is class project, where we asked to build android, where users can connect, see thier commands and pass new command.
+This app is class project, where we asked to build android app pizza delivery, where users can connect, see thier commands and pass new command.
 
 ![screenshot](screenshot.jpg)
 
