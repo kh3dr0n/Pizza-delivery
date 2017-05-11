@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context="kheder.com.pizza.activites.FinishActivity"
+    android:weightSum="1">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_weight="0.41"
+        android:background="@color/bottombar"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size :\n Ingridents :"
+            android:textColor="@color/bottombartext" />
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mapV"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/finishbt"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="20sp"
+        android:background="@color/bottombarborder"
+        android:text="Finish command"
+        android:textColor="@color/bottombartext" />
+</LinearLayout>

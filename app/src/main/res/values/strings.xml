@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">pizza</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="facebook_app_id">Add here</string>
+    <string name="fb_login_protocol_scheme">Add here</string>
+
+
+    <string name="title_activity_login">Italian Pizza</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_finish">FinishActivity</string>
+
+    <string-array name="ingr">
+        <item>Without</item>
+        <item>With</item>
+        <item>Extra</item>
+    </string-array>
+
+    <string name="title_activity_commandes">You commands</string>
+</resources>

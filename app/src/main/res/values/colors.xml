@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d54e4d</color>
+    <color name="colorPrimaryDark">#d54e4d</color>
+    <color name="colorAccent">#fdf4be</color>
+
+
+    <color name="gray">#d54e4d</color>
+
+
+    <color name="bgstart">#e25251</color>
+    <color name="bgend">#ee6b55</color>
+    <color name="bottombar">#d54e4d</color>
+    <color name="bottombarborder">#d34d4c</color>
+    <color name="bottombartext">#FCF0CC</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

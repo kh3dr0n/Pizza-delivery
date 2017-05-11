@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kheder.com.pizza.fragments.commande.PicklocationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="322dp"
+            android:layout_marginTop="30sp"
+            app:srcCompat="@drawable/pick" />
+
+
+        <Button
+            android:id="@+id/picklocationbt"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_margin="40sp"
+            android:background="@color/bottombar"
+            android:text="Pick a location"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/bottombartext"
+            android:textSize="14sp"
+            android:typeface="sans" />
+
+    </LinearLayout>
+</FrameLayout>
